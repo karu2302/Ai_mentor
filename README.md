@@ -1,10 +1,3 @@
-# Welcome to Streamlit!
-
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
-
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
-
 # 🤖 AI Mentor & Chatbot Workspace
 
 <div align="center">
@@ -33,3 +26,9 @@ This repository contains the source code for an interactive AI-powered assistant
    ```bash
    git clone [https://github.com/karu2302/Ai_mentor.git](https://github.com/karu2302/Ai_mentor.git)
    cd Ai_mentor
+# Welcome to Streamlit!
+
+Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+
+If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
+forums](https://discuss.streamlit.io).
