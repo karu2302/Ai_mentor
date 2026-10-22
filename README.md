@@ -1,31 +1,34 @@
-# 🤖 AI Mentor & Chatbot Workspace
+# 🤖 AI Mentor Workspace
 
 <div align="center">
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Streamlit/Gradio](https://img.shields.io/badge/Framework-Streamlit%2FGradio-orange.svg)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Framework-Streamlit-orange.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-*An intelligent, interactive AI assistant designed to guide, mentor, and answer queries dynamically.*
+*An intelligent, interactive AI mentorship application designed to guide users through structured problem-solving and domain learning.*
 
 </div>
 
 ---
 
-## 🌟 Overview
-This repository contains the source code for an interactive AI-powered assistant space originally built and hosted on Hugging Face Spaces. It leverages advanced language modeling to deliver real-time, context-aware responses and mentorship.
+## 📖 What This Space Does
+**Ai_mentor** is an interactive educational assistant designed to act as an on-demand digital tutor. Instead of providing generic search results, it uses targeted system prompts and conversational memory to break down complex technical topics, assist with code logic, and guide learners step-by-step through technical concepts.
 
-## 🛠️ Features
-- **Interactive Chat Interface:** Clean, user-friendly UI for seamless communication.
-- **Dynamic Prompt Engineering:** Tailored prompts to guide learning and problem-solving.
-- **Lightweight & Fast:** Optimized for quick response times and smooth deployment.
+## 🧰 What is Inside This Space
+- **Interactive Chat Interface:** A real-time conversational UI built with Streamlit that maintains user chat session history.
+- **System Prompt Templates:** Pre-configured persona guidelines that instruct the model to adopt a encouraging, pedagogy-focused mentorship style.
+- **Context Handling Module:** Mechanisms to parse user queries, retain recent conversation turns, and format outputs cleanly with syntax highlighting.
+- **Model Wrapper:** Connects the frontend UI directly to state-of-the-art Large Language Model (LLM) APIs or Hugging Face Inference endpoints.
 
-## 🚀 Quick Start (Run Locally)
+## ⚙️ How It Works
+1. **User Input:** The user submits a learning query or technical question through the web interface.
+2. **Prompt Orchestration:** The backend combines the user's input with the predefined mentor persona and recent conversation history.
+3. **Inference Execution:** The prompt is sent to the LLM backend to generate a structured, easy-to-digest response.
+4. **Streamed Rendering:** The output is formatted into clean Markdown with embedded code blocks and rendered dynamically on the screen.
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/karu2302/Ai_mentor.git](https://github.com/karu2302/Ai_mentor.git)
-   cd Ai_mentor
+---
+*Migrated from Hugging Face Spaces by [karu2302](https://github.com/karu2302).*
 # Welcome to Streamlit!
 
 Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
