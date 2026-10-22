@@ -1,0 +1,7 @@
+langchain
+langchain-community
+huggingface_hub
+langchain_huggingface
+streamlit
+pandas
+streamlit-lottie
